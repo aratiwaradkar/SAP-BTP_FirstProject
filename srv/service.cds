@@ -13,6 +13,8 @@ service BookService{
          excluding { createdAt, createdBy,modifiedAt,modifiedBy};
    
    @readonly entity Authors as projection on database.Authors;
+
+   @readonly entity Addresses  as projection on database.Addresses;
 } 
 
 service OrderService{
