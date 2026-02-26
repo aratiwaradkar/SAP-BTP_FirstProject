@@ -15,6 +15,8 @@ service BookService{
    @readonly entity Authors as projection on database.Authors;
 
    @readonly entity Addresses  as projection on database.Addresses;
+
+    @readonly entity BusinessPartners as projection on database.BusinessPartners;
 } 
 
 service OrderService{
