@@ -27,7 +27,7 @@ entity OrderItems: cuid {
     amount : Integer ;
     netAmount : Decimal(10,2) @readonly ;
 }
- 
+ /*
  entity Addresses: cuid {
     address : String;
     city : String ;
@@ -40,4 +40,4 @@ entity BusinessPartners: cuid {
     city : String ;
     
 }
- 
+ */
